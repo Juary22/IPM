@@ -1,0 +1,329 @@
+/* Resetando margens e paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+    padding-top: 20px;
+}
+
+/* Navbar */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px; /* Ajusta a navegação para a direita */
+}
+
+.navbar .logo a {
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 2em;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/* Seção Home */
+.hero {
+    background-image: url(imagens/repteis-ameaca-extincao-conexao-planeta.jpg);
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1 {
+    font-size: 80px;
+}
+
+/* Seção do Catálogo */
+#catalogo {
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh; /* Altura igual à da seção Home */
+}
+
+/* Título */
+#catalogo h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+/* Container das divs */
+.reptil-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+/* Estilização das divs */
+.reptil-box {
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* Fundo das divs */
+.lagartos {
+    background-image: url('imagens/997-5ddf2453140fce48d37ef7d3aee35551.jpeg'); /* Atualize com a imagem correta */
+}
+
+.tartarugas {
+    background-image: url('imagens/t2.jpeg');
+}
+.features{
+    margin-top: 6em;
+    padding-top: 10px;
+}
+/* Títulos */
+.reptil-box h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Botões */
+.reptil-box button {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.reptil-box button:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Seção Cuidados */
+#cuidados {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+    height: 100vh; /* Altura igual à da seção Home */
+}
+
+/* Centralizar o título */
+#cuidados h2 {
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Container principal */
+.cuidados-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Permite adaptação em telas menores */
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilização do texto */
+.cuidados-texto {
+    max-width: 600px;
+    text-align: left;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Lista dentro da seção */
+.cuidados-texto ul {
+    list-style: none;
+    padding: 0;
+}
+
+.cuidados-texto ul li {
+    margin-bottom: 10px;
+}
+
+/* Container das imagens */
+.cuidados-imagens {
+    display: flex;
+    gap: 20px; /* Espaço entre as imagens */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Ajustar tamanho das imagens */
+.cuidados-imagens img {
+    width: 250px; /* Define um tamanho fixo */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact-container {
+    display: flex;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex: 1;
+    padding: 20px;
+}
+
+.contact-form h2, .contact-info h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-form button:hover {
+    background: #0056b3;
+}
+
+.contact-info {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #555;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-info p i {
+    margin-right: 10px;
+    color: #007BFF;
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    color: #333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: #007BFF;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .contact-info p {
+        justify-content: center;
+    }
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Répteis - Guia e Conservação</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar" id="navbar">
+            <div class="logo">
+                <a href="#">Répteis</a>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#catalogo">Catálogo de Espécies</a></li>
+                <li><a href="#cuidados">Cuidados e Dicas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Seção Home -->
+        <section class="hero" id="home">
+            <h1>Descubra sobre Répteis em Cabo Verde</h1>
+        </section>
+
+        <!-- Seção Catálogo -->
+        <section class="features" id="catalogo">
+            <h2>Lagartos Endêmicos e Tartarugas Marinhas</h2>
+          
+            <div class="reptil-container">
+                <!-- Lagartos Endêmicos -->
+                <div class="reptil-box lagartos">
+                    <h2>Lagartos Endêmicos</h2>
+                    <a href="pagina1.html">
+                        <button>Família: Scincidae</button>
+                    </a>
+                    <a href="pagina2.html">
+                        <button>Família: Gekkonidae</button>
+                    </a>
+                    <a href="pagina3.html">
+                        <button>Família: Phyllodactylidae</button>
+                    </a>
+                </div>
+            
+                <!-- Tartarugas Marinhas -->
+                <div class="reptil-box tartarugas">
+                    <h2>Tartarugas Marinhas</h2>
+                    <a href="pagina4.html">
+                        <button>Família: Cheloniidae</button>
+                    </a>
+                    <a href="pagina5.html">
+                        <button>Família: Dermochelyidae</button>
+                    </a>
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- Seção Cuidados -->
+        <section class="features" id="cuidados">
+            <h2>Principais termos utilizados na descrição de Répteis</h2>
+            <div class="cuidados-container">
+                <div class="cuidados-texto">
+                    <p><strong>Padrões de escamas:</strong> Examinar a disposição, forma e tamanho das escamas no corpo, cabeça e membros.</p>
+                    <p><strong>Coloração:</strong> Descrever a cor e o padrão da pele do réptil, incluindo quaisquer marcações distintas ou variações.</p>
+                    <p><strong>Medições morfométricas:</strong> Realizar medidas específicas de diferentes partes do corpo, como comprimento focinho-ventre, comprimento da cauda, largura da cabeça e dimensões dos membros.</p>
+                    <p><strong>Forma do corpo:</strong> Avaliar a forma geral e proporção do corpo do réptil.</p>
+                    <p><strong>Medidas:</strong></p>
+                    <ul>
+                        <li><strong>Comprimento focinho-ventre (CFV):</strong> Distância entre a ponta do focinho e a cloaca.</li>
+                        <li><strong>Comprimento total:</strong> Medida da ponta do focinho até a ponta da cauda.</li>
+                        <li><strong>Comprimento da cauda:</strong> Medida da cloaca até a ponta da cauda.</li>
+                        <li><strong>Dimensões da cabeça:</strong> Medidas da largura, comprimento e altura da cabeça.</li>
+                        <li><strong>Medições dos membros:</strong> Comprimentos dos membros anteriores e posteriores.</li>
+                        <li><strong>Massa corporal:</strong> O peso do réptil, que pode indicar sua saúde geral.</li>
+                    </ul>
+                </div>
+                <div class="cuidados-imagens">
+                    <img src="imagens/LVM.png" alt="Padrões de escamas">
+                    <img src="imagens/LVN.png" alt="Medições morfométricas">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <section class="contact-section" id="contacto">
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2>Entre em Contato</h2>
+                <form>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar SMS</button>
+                </form>
+            </div>
+            <div class="contact-info">
+                <h2>Formas de Contato</h2>
+                <p><i class="fas fa-envelope"></i> Email: contato@example.com</p>
+                <p><i class="fas fa-phone"></i> Telefone: +238 999 9999</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Répteis - Guia e Conservação</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
