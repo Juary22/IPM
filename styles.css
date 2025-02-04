@@ -1,4 +1,4 @@
-
+/* Resetando margens e paddings */
 * {
     margin: 0;
     padding: 0;
@@ -13,7 +13,7 @@ body {
     padding-top: 20px;
 }
 
-
+/* Navbar */
 header {
     background-color: #4CAF50;
     color: white;
@@ -22,7 +22,6 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-right: 10px; 
+   
 }
 
 .navbar .logo a {
@@ -56,7 +55,7 @@ header {
     font-size: 1.2rem;
 }
 
-
+/* Seção Home */
 .hero {
     background-image: url(imagens/repteis-ameaca-extincao-conexao-planeta.jpg);
     background-size: cover;
@@ -73,6 +72,7 @@ header {
     font-size: 80px;
 }
 
+/* Seção do Catálogo */
 #catalogo {
     background-color: black;
     background-size: cover;
@@ -82,7 +82,7 @@ header {
     height: 100vh; /* Altura igual à da seção Home */
 }
 
-
+/* Título */
 #catalogo h2 {
     font-size: 40px;
     margin-bottom: 40px;
@@ -90,7 +90,7 @@ header {
     color: white;
 }
 
-
+/* Container das divs */
 .reptil-container {
     display: flex;
     justify-content: center;
@@ -99,7 +99,7 @@ header {
     flex-wrap: wrap;
 }
 
-
+/* Estilização das divs */
 .reptil-box {
     width: 400px;
     height: 500px;
@@ -115,7 +115,7 @@ header {
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
-
+/* Fundo das divs */
 .lagartos {
     background-image: url('imagens/997-5ddf2453140fce48d37ef7d3aee35551.jpeg'); /* Atualize com a imagem correta */
 }
@@ -124,17 +124,17 @@ header {
     background-image: url('imagens/t2.jpeg');
 }
 .features{
-    margin-top: 6em;
-    padding-top: 10px;
+    margin-top: 0em;
+    padding-top: 0px;
 }
-
+/* Títulos */
 .reptil-box h2 {
     font-size: 22px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-
+/* Botões */
 .reptil-box button {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
@@ -151,7 +151,7 @@ header {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-
+/* Seção Cuidados */
 #cuidados {
     background-color: #fff;
     padding: 50px 20px;
@@ -159,7 +159,7 @@ header {
     height: 100vh; /* Altura igual à da seção Home */
 }
 
-
+/* Centralizar o título */
 #cuidados h2 {
     font-size: 35px;
     font-weight: bold;
@@ -167,7 +167,7 @@ header {
     margin-bottom: 20px;
 }
 
-
+/* Container principal */
 .cuidados-container {
     display: flex;
     justify-content: center;
@@ -178,6 +178,7 @@ header {
     margin: 0 auto;
 }
 
+/* Estilização do texto */
 .cuidados-texto {
     max-width: 600px;
     text-align: left;
@@ -187,7 +188,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-
+/* Lista dentro da seção */
 .cuidados-texto ul {
     list-style: none;
     padding: 0;
@@ -197,7 +198,7 @@ header {
     margin-bottom: 10px;
 }
 
-
+/* Container das imagens */
 .cuidados-imagens {
     display: flex;
     gap: 20px; /* Espaço entre as imagens */
@@ -205,7 +206,7 @@ header {
     justify-content: center;
 }
 
-
+/* Ajustar tamanho das imagens */
 .cuidados-imagens img {
     width: 250px; /* Define um tamanho fixo */
     height: auto;
@@ -213,7 +214,7 @@ header {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-
+/* Footer */
 footer {
     background-color: #333;
     color: white;
